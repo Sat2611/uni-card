@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: -webkit-linear-gradient(#8fffef, #f9f490);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient2 {
+  background: -webkit-linear-gradient(#da88b9, #f9f490);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
