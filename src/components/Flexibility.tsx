@@ -5,7 +5,7 @@ type Props = {};
 
 function Flexibility({}: Props) {
   return (
-    <div className='bg-black'>
+    <div className='bg-black py-8'>
       <Section>
         <div className='px-4 lg:px-0 grid grid-cols-1 lg:grid-cols-2 mx-auto justify-center items-center lg:gap-x-20'>
           <div>
