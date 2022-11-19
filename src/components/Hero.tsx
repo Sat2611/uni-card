@@ -10,16 +10,16 @@ function Hero({}: Props) {
     <div className="py-12 bg-[url('https://www.uni.cards/images/redesign/black_background.webp')]">
       {/* <div className='py-12 bg-gradient-to-b from-black to-[#FFD9BD]'> */}
       <Section>
-        <div className='flex justify-between items-center'>
-          <div className='space-y-8'>
-            <div className='text-white font-bold text-6xl'>
-              <p className=''>India's Credit</p>
+        <div className='flex flex-col lg:flex-row justify-between items-center'>
+          <div className='space-y-8 order-2'>
+            <div className='text-white font-bold text-3xl lg:text-6xl'>
+              <p className=''>India&apos;s Credit</p>
               <p className=''>Revolution is here. </p>
               <p className=''>
                 <span className='gradient'>Pay 1/3rd.</span> Anywhere
               </p>
             </div>
-            <div>
+            <div className='hidden lg:block'>
               <div>
                 <form>
                   <div className='flex bg-[#454B51] p-1 pl-2 rounded-xl max-w-sm justify-between'>
@@ -53,7 +53,7 @@ function Hero({}: Props) {
               </div>
             </div>
           </div>
-          <div className='w-1/2'>
+          <div className='w-1/2 order-1 lg:order-2'>
             <Img
               src='https://www.uni.cards/images/redesign/card_asset.webp'
               alt='card'

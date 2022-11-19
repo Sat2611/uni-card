@@ -10,9 +10,9 @@ function Flexibility({}: Props) {
         <div className='px-4 lg:px-0 grid grid-cols-1 lg:grid-cols-2 mx-auto justify-center items-center lg:gap-x-20'>
           <div>
             <video
-              muted={true}
-              // playsinline=''
-              // disablepictureinpicture=''
+              muted
+              playsInline
+              disablePictureInPicture
               className='w-full h-full'
             >
               <source

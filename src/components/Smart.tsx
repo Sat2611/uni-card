@@ -8,7 +8,7 @@ function Smart({}: Props) {
     <div className='bg-black py-8'>
       <Section>
         <div className='grid grid-cols-1 px-4 lg:px-0 lg:grid-cols-2 mx-auto justify-center items-center lg:gap-x-20'>
-          <div className='mx-auto order-2 lg:order-1'>
+          <div className=' order-2 lg:order-1'>
             <span className='text-lg gradient2 md:text-4xl md:leading-8'>
               <span className='gradient2'> Uni Pay 1/2 Card </span>
             </span>
@@ -32,9 +32,9 @@ function Smart({}: Props) {
           </div>
           <div className='order-1'>
             <video
-              // muted=''
-              // playsinline=''
-              // disablepictureinpicture=''
+              muted={true}
+              playsInline={true}
+              disablePictureInPicture={false}
               className='w-full h-full'
             >
               <source
