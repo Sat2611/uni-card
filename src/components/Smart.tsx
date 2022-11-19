@@ -15,11 +15,11 @@ function Smart({}: Props) {
             <p className='text-[28px] leading-[1.2] font-medium sm:text-3xl break-words text-white md:text-5xl'>
               Smart Payments,<br></br>Delightful Rewards.
             </p>
-            <p class='text-gray-4 text-[14px] md:text-2xl md:leading-7 my-4 md:my-8'>
-              <span class='text-white'>Split your spends in 2.</span> Or,{" "}
+            <p className='text-gray-400 text-[14px] md:text-2xl md:leading-7 my-4 md:my-8'>
+              <span className='text-white'>Split your spends in 2.</span> Or,{" "}
               <br></br>
               pay in 1 month &amp; get{" "}
-              <span class='text-white'>1.2% rewards!</span>
+              <span className='text-white'>1.2% rewards!</span>
             </p>
             <div className='mt-8 md:mt-16'>
               <a

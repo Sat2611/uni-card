@@ -7,7 +7,7 @@ function Flexibility({}: Props) {
   return (
     <div className='bg-black'>
       <Section>
-        <div className='grid grid-cols-2 mx-auto justify-center items-center lg:gap-x-20'>
+        <div className='px-4 lg:px-0 grid grid-cols-1 lg:grid-cols-2 mx-auto justify-center items-center lg:gap-x-20'>
           <div>
             <video
               muted={true}

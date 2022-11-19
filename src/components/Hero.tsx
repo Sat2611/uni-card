@@ -28,7 +28,6 @@ function Hero({}: Props) {
                         className='bg-[#454B51] border-0 outline-none text-white p-1 placeholder-[#7E8587] w-44'
                         placeholder='Enter Phone Number'
                         value=''
-                        autocomplete='off'
                       />
                       <span className='w-6 flex items-center justify-end h-full'></span>
                     </div>
