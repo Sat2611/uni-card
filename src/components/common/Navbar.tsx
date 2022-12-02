@@ -5,7 +5,7 @@ type Props = {};
 
 function Navbar({}: Props) {
   return (
-    <div className='bg-black sticky top-0 px-4'>
+    <div className='bg-black z-10 sticky top-0 px-4'>
       <Section>
         <div className='flex justify-between items-center'>
           <svg

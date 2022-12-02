@@ -11,6 +11,8 @@ function Flexibility({}: Props) {
           <div>
             <video
               muted
+              autoPlay
+              // loop
               playsInline
               disablePictureInPicture
               className='w-full h-full'

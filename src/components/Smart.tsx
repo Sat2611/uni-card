@@ -33,6 +33,8 @@ function Smart({}: Props) {
           <div className='order-1'>
             <video
               muted={true}
+              autoPlay
+              // loop
               playsInline={true}
               disablePictureInPicture={false}
               className='w-full h-full'

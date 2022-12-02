@@ -53,7 +53,7 @@ function Hero({}: Props) {
               </div>
             </div>
           </div>
-          <div className='w-1/2 order-1 lg:order-2'>
+          <div className='w-1/2 order-1 lg:order-2 bounce'>
             <Img
               src='https://www.uni.cards/images/redesign/card_asset.webp'
               alt='card'
